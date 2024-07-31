@@ -15,7 +15,8 @@ const AclGuard = (props: AclGuardProps) => {
   // ** Props
   const { aclAbilities, children, guestGuard = false, authGuard = true } = props
   console.log(aclAbilities, children, guestGuard, authGuard)
-  // ** return <>{children}</>
+  //
+  return <>{children}</>
 }
 
 export default AclGuard

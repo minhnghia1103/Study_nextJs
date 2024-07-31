@@ -9,7 +9,9 @@ interface GuestGuardProps {
 const GuestGuard = (props: GuestGuardProps) => {
   const { children, fallback } = props
   console.log(children, fallback)
-  // ** return <>{children}</>
+
+  //
+  return <>{children}</>
 }
 
 export default GuestGuard
