@@ -1,3 +1,4 @@
+// ** React Imports
 import { ReactNode, ReactElement } from 'react'
 
 interface AuthGuardProps {
@@ -9,8 +10,11 @@ const AuthGuard = (props: AuthGuardProps) => {
   const { children, fallback } = props
   console.log(children, fallback)
 
-  //
-  return <>{children}</>
+  return(
+    <>
+      {children}
+    </>
+  ) 
 }
 
 export default AuthGuard
