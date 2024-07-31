@@ -74,6 +74,7 @@ export default function App(props: ExtendedAppProps) {
   const { Component, pageProps } = props
 
   const { settings } = useSettings()
+  console.log(settings)
 
   // Variables
   const getLayout = Component.getLayout ?? (page => <>{page}</>)

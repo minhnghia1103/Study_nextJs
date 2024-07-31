@@ -1,4 +1,4 @@
-// ** React Imports
+// React Imports
 import { ReactNode, ReactElement } from 'react'
 
 interface AuthGuardProps {
