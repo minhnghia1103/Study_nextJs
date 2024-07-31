@@ -9,7 +9,6 @@ interface AuthGuardProps {
 const AuthGuard = (props: AuthGuardProps) => {
   const { children, fallback } = props
   console.log(children, fallback)
-
   // ** Render
   return(
     <>
